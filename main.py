@@ -78,11 +78,12 @@ num2 = 5
 # Create two variables (num1 and num2):
 
 # Inside num1, store the result of 64 x 3
-
+num1 = 64*3
 # Inside num2, store the result of 24 x 8
-
+num2 = 24*8
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
-
+my_bool = num1 != num2
+print(my_bool)
 
 
 
@@ -128,8 +129,9 @@ num2 = 5
 
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
-# "When something is important enough, you do it even if the odds are against you" - Elon Musk
-
+text = "When something is important enough, you do it even if the odds are against you"
+my_bool = ("word1" in text) and  ("word2" in text)
+print(my_bool)
 
 
 
